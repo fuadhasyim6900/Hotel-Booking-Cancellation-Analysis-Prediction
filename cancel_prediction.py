@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 # Load Model & Encoders
 
 model = joblib.load("rf_cancellation_model.pkl")
-encoders = joblib.load("Interview\encoder.pkl")
+encoders = joblib.load("encoder.pkl")
 
 st.set_page_config(page_title="Hotel Booking Cancellation Predictor", layout="centered")
 st.title("🏨 Hotel Booking Cancellation Prediction")
